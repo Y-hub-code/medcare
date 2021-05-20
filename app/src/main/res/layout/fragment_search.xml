@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchFragment">
+
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="200dp"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Name"
+        android:gravity="center_horizontal"
+        android:id="@+id/editName"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:hint="Categourie"
+            android:gravity="center_horizontal"
+            android:id="@+id/editCate"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Wilaya"
+        android:gravity="center_horizontal"
+        android:id="@+id/editWila"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Rechercher"
+        android:id="@+id/btnrech"
+        android:layout_marginHorizontal="20dp"
+        android:background="#902196f3"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
